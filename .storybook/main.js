@@ -4,7 +4,7 @@ module.exports = {
         checkOptions: {}
     },
     stories: ["../src/**/*.stories.tsx"], //relative in project's directory
-    addons: ["@storybook/addon-essentials", "storybook-addon-designs"],
+    addons: ["@storybook/addon-essentials"],
     previewHead: (head) => `
         ${head}
         <link rel="preconnect" href="https://fonts.googleapis.com">
