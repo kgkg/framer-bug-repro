@@ -5,15 +5,9 @@ module.exports = {
     verbose: true,
     silent: true,
     passWithNoTests: true,
-    snapshotSerializers: ["jest-emotion"],
+    snapshotSerializers: ["@emotion/jest"],
     collectCoverage: true,
     coverageReporters: ["text-summary"],
-    transform: {
-        "\\.m?jsx?$": "jest-esm-transformer"
-    },
-    moduleNameMapper: {
-        "\\.svg": "@ssg-b2b/__devtools__/tests/svgrMock"
-    },
     rootDir: "./",
     setupFilesAfterEnv: ["jest-extended", "<rootDir>/tests/jest-setup.js"],
 };
