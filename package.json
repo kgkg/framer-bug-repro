@@ -1,0 +1,32 @@
+{
+  "name": "framer-bug-repro",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "update-storyshots": "jest -u",
+    "storybook": "start-storybook"
+  },
+  "dependencies": {
+    "framer-motion": "5.5.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-storyshots": "6.4.9",
+    "@storybook/react": "6.4.9",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "11.2.7",
+    "@types/node": "14.17.21",
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.8",
+    "jest": "27.3.1",
+    "jest-emotion": "10.0.32",
+    "jest-esm-transformer": "1.0.0",
+    "jest-extended": "0.11.5",
+    "ts-jest": "27.0.3",
+    "ts-loader": "9.2.6",
+    "ts-node": "10.2.1",
+    "typescript": "4.5.4"
+  }
+}
