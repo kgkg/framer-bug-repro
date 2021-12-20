@@ -9,9 +9,8 @@ const ReorderTiles: React.FC = () => {
 
     return (
         <Reorder.Group values={values} onReorder={setValues}>
-            {values.map((value, index) => (
+            {values.map((value) => (
                 <Reorder.Item
-                    key={value}
                     value={value}
                 >
                     {value}
